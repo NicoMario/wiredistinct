@@ -4,6 +4,7 @@
 
 WireDistinct is a streamlined Python tool that transforms verbose Wireshark packet captures into concise CSV reports, showing only distinct network communication patterns. Perfect for network analysts who need a quick overview of unique traffic patterns without the noise of repeated packets.
 
+
 ## ✨ What It Does
 
 Turns this:
@@ -42,7 +43,7 @@ python wiredistinct.py
 
 ## 📊 Output Format
 
-The generated CSV includes these key fields:
+The generated CSV includes these key fields from wireshark:
 - Source IP Address
 - Destination IP Address
 - Protocol Type
